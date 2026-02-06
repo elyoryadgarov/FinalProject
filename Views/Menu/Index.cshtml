@@ -1,0 +1,26 @@
+@model IEnumerable<Menu>
+
+<h2>Menu</h2>
+<table class="table">
+    <tr>
+        <th>Pizza_ID</th>
+        <th>Pizza_name</th>
+        <th>Ingredient1</th>
+        <th>Ingredient2</th>
+        <th>Ingredient3</th>
+        <th>Price</th>
+    </tr>
+
+    @foreach (var menu in @Model)
+    {
+        <tr>
+            <td>@menu.Pizza_ID</td>
+            <td>@menu.Pizza_name</td>
+            <td>@menu.Ingredient1</td>
+            <td>@menu.Ingredient2</td>
+            <td>@menu.Ingredient3</td>
+            <td>@menu.Price</td>
+        </tr>
+    }
+
+</table>
