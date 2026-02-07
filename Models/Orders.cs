@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp3.Models
+﻿namespace PizzaMaze.Models
 {
   public class Orders
   {
@@ -6,9 +6,9 @@
       public string Customer_name { get; set; }
       public DateTime Order_Date { get; set; }
       public string Pizza_name { get; set; }
-      public string Ingredient1 { get; set; }
-      public string Ingredient2 { get; set; }
-      public string Ingredient3 { get; set; }
+      public string Topping1 { get; set; }
+      public string Topping2 { get; set; }
+      public string Topping3 { get; set; }
       public int count { get; set; }
   }  
 }

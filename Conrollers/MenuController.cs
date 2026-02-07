@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp3.Conrollers
+﻿namespace PizzaMaze.Conrollers
 {
     public class MenuController : Controller
     {

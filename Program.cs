@@ -1,6 +1,6 @@
 ﻿using System.Data;
 using MySql.Data.MySqlClient;
-using ConsoleApp3;
+using PizzaMaze;
 // using Microsoft.AspNetCore.Builder;
 // using Microsoft.Extensions.DependencyInjection;
 // using Microsoft.Extensions.Hosting;

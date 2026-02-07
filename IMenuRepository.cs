@@ -1,6 +1,6 @@
-﻿using ConsoleApp3.Models;
+﻿using PizzaMaze.Models;
 
-namespace ConsoleApp3
+namespace PizzaMaze
 {
     public interface IMenuRepository
     {

@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp3.Models
+﻿namespace PizzaMaze.Models
 {
   public class Menu
   {

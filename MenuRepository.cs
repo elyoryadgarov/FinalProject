@@ -1,8 +1,8 @@
 ﻿using System.Data;
-using ConsoleApp3.Models;
+using PizzaMaze.Models;
 using Dapper;
 
-namespace ConsoleApp3
+namespace PizzaMaze
 {
    public class MenuRepository : IMenuRepository
    {
