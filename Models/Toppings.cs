@@ -1,6 +1,6 @@
 ﻿namespace PizzaMaze.Models
 {
- public class Ingredients
+ public class Toppings
  {
   public int Product_ID { get; set; }
   public string Product_name { get; set; }
